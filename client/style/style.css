@@ -1,0 +1,69 @@
+HTML {
+    overflow : hidden;
+    background : #e8e8e8;
+}
+BODY {
+    background-color : #fefefe;
+    font-family      : "Trebuchet MS";
+    color            : #222222;
+    margin           : 0;
+    padding          : 0 ;
+    font-size        : 12px;
+}
+
+.noscript{
+    display: none;
+}
+.strong{
+    font-weight : bold;
+}
+
+.cut{
+    opacity : 0.5;
+}
+
+#logo {
+    background: url(images/logo.png) no-repeat 0 0;
+    width: 186px;
+    height: 26px;
+    display: block;
+    text-indent: -800em;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.headerMenuBar {
+    padding-right: 190px;
+}
+.alertMsg {
+    font-size   : 14px;
+    color       : #333333;
+    font-family : Trebuchet MS;
+    line-height : 16px;
+}
+
+#loadscreen{
+    background : white;
+    padding : 10px;
+    position : absolute;
+    left : 0;
+    top : 0; 
+    right : 0;
+    bottom : 0;
+    z-index : 100;
+    color : #666;
+}
+
+.relative{
+    position : relative;
+}
+
+.consoleInputBox {
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(28,28,28)),color-stop(1, rgb(47,49,53)));
+    background: -moz-linear-gradient(center bottom,rgb(28,28,28) 0%,rgb(47,49,53) 100%);
+    padding : 1px;
+    margin: 0;
+    overflow: hidden;
+    border-top: 1px solid #656565;
+    /*border-bottom: 1px solid #b2b2b2;*/
+}

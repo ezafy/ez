@@ -1,0 +1,15 @@
+<a:menu id="mnuFile">
+    <a:divider />
+    <a:item>Exit</a:item>
+</a:menu>
+
+<a:menu id="mnuEdit">
+</a:menu>
+
+<a:menu id="mnuView">
+</a:menu>
+
+<a:menu id="mnuModes"
+  onitemclick = "require('core/ext').setLayoutMode(event.value);">
+    <a:item value="default" caption="Default" />
+</a:menu>
